@@ -198,11 +198,7 @@ gh repo create hashicat-tfc-github-aws-testing --private --source=. --remote=ups
     origin  https://github.com/hashicorp/hashicat-aws.git (fetch)
     origin  https://github.com/hashicorp/hashicat-aws.git (push)
     vagrant@HelloCloudDevBox:~/Hashicorp-cp/Terraformcorp/TerraformCloud-vcs_workflow/tfc-vcs-github-aws-testing$ git remote rm origin 
-    vagrant@HelloCloudDevBox:~/Hashicorp-cp/Terraformcorp/TerraformCloud-vcs_workflow/tfc-vcs-github-aws-testing$ gite remote -v
-    -bash: gite: command not found
     vagrant@HelloCloudDevBox:~/Hashicorp-cp/Terraformcorp/TerraformCloud-vcs_workflow/tfc-vcs-github-aws-testing$ git remote -v
-    vagrant@HelloCloudDevBox:~/Hashicorp-cp/Terraformcorp/TerraformCloud-vcs_workflow/tfc-vcs-github-aws-testing$ gite remote
-    -bash: gite: command not found
     vagrant@HelloCloudDevBox:~/Hashicorp-cp/Terraformcorp/TerraformCloud-vcs_workflow/tfc-vcs-github-aws-testing$ git remote
     vagrant@HelloCloudDevBox:~/Hashicorp-cp/Terraformcorp/TerraformCloud-vcs_workflow/tfc-vcs-github-aws-testing$ gh repo create hashicat-tfc-github-aws-testing --private --source=. --remote=upstream --push
     ✓ Created repository cloudgitcollab/hashicat-tfc-github-aws-testing on GitHub
@@ -235,8 +231,8 @@ gh repo create hashicat-tfc-github-aws-testing --private --source=. --remote=ups
 ## Generate IAM/user `AWS_ACCESS_KEY_ID`nd`AWS_SECRET_ACCESS_KEY`
 
 ```
-AWS_ACCESS_KEY_ID :: AKIAQYHJONxxxx
-AWS_SECRET_ACCESS_KEY :: IlOvPP9utSGuxxxx
+AWS_ACCESS_KEY_ID :: xxxxx
+AWS_SECRET_ACCESS_KEY :: xxxxx
 ```
 - Create user , attach permission and access keys.
 ![image](https://github.com/WaiKyaw-Cloud/Terraform/assets/157877132/d40848a0-fdd5-47d4-8ea8-9dadbb0a6953)
