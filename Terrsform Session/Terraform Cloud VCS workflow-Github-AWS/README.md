@@ -113,7 +113,7 @@ vagrant@HelloCloudDevBox:~$
 ![image](https://github.com/WaiKyaw-Cloud/Terraform/assets/157877132/62bf4166-98f5-4a84-a4b7-a5ea58fde74d)
 
 ```jsx
-vagrant@HelloCloudDevBox:~$ gh auth login --with-token <<< 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
+vagrant@HelloCloudDevBox:~$ gh auth login --with-token <<< ghp_xxxxxxxxxxxxxxx
 vagrant@HelloCloudDevBox:~$ gh auth status
 github.com
   ✓ Logged in to github.com account cloudgitcollab (/home/vagrant/.config/gh/hosts.yml)
